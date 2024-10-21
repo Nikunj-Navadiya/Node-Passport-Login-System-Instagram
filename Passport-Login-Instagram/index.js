@@ -18,7 +18,7 @@ const passportLocal = require('./config/passportlocalStratagy');
 const session = require('express-session');
 
 app.use(session({
-    secret: 'shreya',
+    secret: 'Nikunj',
     saveUninitialized: true,
     resave: true,
     cookie: {
